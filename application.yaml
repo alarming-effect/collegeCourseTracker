@@ -1,0 +1,10 @@
+spring:
+   datasource:
+      username: course_tracker
+      password: course_tracker
+      url: jdbc:mysql://localhost:3306/course_tracker
+      
+   jpa:
+      hibernate:
+         ddl-auto: update
+         show-sql: true
